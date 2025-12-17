@@ -1,44 +1,43 @@
 import { Product } from '../types';
 
-// MOCK DATA derived from your CSV to ensure the app works in this demo environment
-// In a real deployment, the fetchProducts function would hit your backend API.
+// MOCK DATA derived from Zinga product catalog
 const MOCK_STRIPE_DATA: Product[] = [
   {
-    id: 'prod_Tc88iHqWbl52O7',
+    id: '1',
     name: "Zinga Ginger Ground - 200g",
     price: 3.00,
     description: "Premium finely ground ginger root in a convenient 200g (7oz) jar. Perfect for trying out our signature spice or for small households.",
-    image: "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80", // Spoon with powder
+    image: "https://res.cloudinary.com/dts2hsdnj/image/upload/v1765876889/zinga/public/200_jwd9gp.png",
     category: "Essentials",
     ingredients: ["100% Organic Ginger Root"],
     stripePriceId: "price_1SetsfDWAhEwNqo7XgMaa2RU"
   },
   {
-    id: 'prod_Tc8B9WROVdT2cv',
+    id: '2',
     name: "Zinga Ginger Ground - 500g",
     price: 7.00,
     description: "Our signature ginger powder in a 500g (17.6oz) eco-friendly paper bag. A pantry staple for baking and cooking enthusiasts.",
-    image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80", // Glass jar
+    image: "https://res.cloudinary.com/dts2hsdnj/image/upload/v1765876981/zinga/public/1000g_f4zcpu.png",
     category: "Essentials",
     ingredients: ["100% Organic Ginger Root"],
     stripePriceId: "price_1SetukDWAhEwNqo7qbiPqXTE"
   },
   {
-    id: 'prod_Tc8DlYLdhVR9P8',
+    id: '3',
     name: "Zinga Ginger Ground - 1000g",
     price: 14.00,
     description: "A substantial 1000g (35.3oz) jar of our aromatic, sun-dried ginger powder. Excellent value for daily wellness routines.",
-    image: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=800&q=80", // Fresh roots and powder
+    image: "https://res.cloudinary.com/dts2hsdnj/image/upload/v1765876981/zinga/public/1000g_f4zcpu.png",
     category: "Bulk",
     ingredients: ["100% Organic Ginger Root"],
     stripePriceId: "price_1SetweDWAhEwNqo7hGsI36jN"
   },
   {
-    id: 'prod_Tc8EluZFz7iZV4',
+    id: '4',
     name: "Zinga Ginger Ground - 2000g",
-    price: 25.00,
+    price: 28.00,
     description: "The ultimate 2000g (70.6oz) supply. The professional choice for maximum flavor, longevity, and savings.",
-    image: "https://images.unsplash.com/photo-1635563138905-596784476e48?auto=format&fit=crop&w=800&q=80", // Large scoop/pile
+    image: "https://res.cloudinary.com/dts2hsdnj/image/upload/v1765877599/zinga/public/2000g_r2j2s1.png",
     category: "Bulk",
     ingredients: ["100% Organic Ginger Root"],
     stripePriceId: "price_1Sety4DWAhEwNqo7YQbsAIFX"
